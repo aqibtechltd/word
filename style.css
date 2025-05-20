@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; }
+.container { max-width: 400px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 24px 16px 16px 16px; }
+h2 { text-align: center; margin-bottom: 16px; }
+#drop-area { border: 2px dashed #007bff; border-radius: 8px; padding: 24px; text-align: center; background: #f0f8ff; transition: border 0.2s; }
+#drop-area.dragover { border-color: #0056b3; background: #e6f0fa; }
+.button { display: inline-block; background: #007bff; color: #fff; padding: 10px 18px; border-radius: 5px; cursor: pointer; margin-bottom: 8px; text-decoration: none; }
+.button:hover { background: #0056b3; }
+#progress { margin: 12px 0; color: #007bff; }
+#message { margin: 12px 0; color: #d9534f; }
+#download-link { display: block; margin: 12px 0; background: #28a745; color: #fff; padding: 10px 18px; border-radius: 5px; text-decoration: none; }
+#download-link:hover { background: #218838; }
+footer { text-align: center; font-size: 0.95em; color: #888; margin-top: 24px; }
+footer a { color: #007bff; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+@media (max-width: 500px) { .container { max-width: 98vw; padding: 10px; } #drop-area { padding: 14px; } }

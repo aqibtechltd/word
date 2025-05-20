@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word to PDF Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Word to PDF Converter</h2>
+    <div id="drop-area">
+      <form id="upload-form">
+        <input type="file" id="fileElem" accept=".doc,.docx" style="display:none" />
+        <label class="button" for="fileElem">Select a Word file</label>
+        <p>or drag & drop here</p>
+      </form>
+      <div id="progress" style="display:none;"></div>
+      <div id="message"></div>
+      <a id="download-link" style="display:none;" download>Download PDF</a>
+    </div>
+    <footer>
+      Built by Aqib Chaudhary – <a href="https://freetoolszone.xyz/" target="_blank">https://freetoolszone.xyz/</a>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
